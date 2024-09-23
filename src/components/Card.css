@@ -1,0 +1,45 @@
+
+.card {
+  /* background-color: #fff; */
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.card-title {
+  color: #10c964 !important;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.card-year, .card-type {
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #fffb00;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+
+
+@media (max-width: 768px) {
+  .card {
+    margin: 0.5rem;
+  }
+}
